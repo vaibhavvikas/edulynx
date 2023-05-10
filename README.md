@@ -23,7 +23,13 @@ make pre-commit-install
 make codestyle
 ```
 
-4. Run the application:
+4. Run the mongodb migration:
+
+```bash
+poetry run python migration/migrate.py
+```
+
+5. Run the application:
 
 ```bash
 poetry run edulynx
