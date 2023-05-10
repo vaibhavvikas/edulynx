@@ -2,7 +2,7 @@
 
 A python FastApi Application to manage courses.
 
-### Initialize your code
+## Setting up the project
 
 1. If you don't have `Poetry` installed run:
 
@@ -27,4 +27,10 @@ make codestyle
 
 ```bash
 poetry run edulynx
+```
+
+## Run Tests
+
+``` bash
+make test
 ```
